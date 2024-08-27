@@ -1,0 +1,154 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/656453072/photo/vintage-retro-grungy-background-design-and-pattern-texture.jpg?s=612x612&w=0&k=20&c=PiX0bt3N6Hqk7yO7g52FWCunpjqm_9LhjRA2gkbl5z8=");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#content {
+    margin-top: 20vh;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    margin-top: 15px;
+}
+
+h1 {
+    font-family: Joystix;
+    font-size: 70px;
+    text-align: center;
+    margin-top: -25%;
+}
+
+#content-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+    text-align: center;
+}
+
+#name-input {
+    display: block;
+    margin: 0 auto;
+}
+
+#label {
+    font-family: Futura Maxi CG Bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+#start-button {
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+    font-family: Joystix;
+}
+
+img {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+img:hover {
+    background-color: white;
+    transform: scale(1.01);
+    opacity: .9;
+    transition: .4s;
+}
+
+.choice-text {
+    font-family: "Joystix";
+}
+
+.story-text {
+    font-family: "Futura Maxi CG Bold";
+    font-size: 25px;
+    margin-bottom: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 32px;
+}
+
+.start-button {
+    background-color: white;
+    font-family: Joystix;
+}
+
+.start-button:hover {
+    opacity: .8;
+    transition: .5s;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + .choice-text::before {
+    content: "\2713";
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.choice-text {
+    cursor: pointer;
+}
+
+.choice-text input[type="radio"] {
+    vertical-align: middle;
+}
+
+.choice-text:hover {
+    color: white;
+    transition: .2s;
+}
+
+#submit-button {
+    background-color: white;
+    font-family: Joystix;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+}
+
+#submit-button:hover {
+    opacity: .8;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.intro-img {
+    background-color: transparent;
+    width: 1000px;
+    height: auto;
+    margin-right: 115px;
+}
+
+.intro-img:hover {
+    background-color: transparent;
+}
